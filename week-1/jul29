@@ -1,0 +1,89 @@
+x = int(1)
+print(x)
+
+x = float(1)
+print(x)
+
+x = str("l")
+print(x)
+
+# slicing of string 
+s = "Hello, World!"
+print(s[2:5])
+print(s[:8])
+print(s[2:])
+print(s[-10:-4])
+
+#string handling 
+A = "KONERU LAKSHMIAHA EDUCATIONAL FOUNDATION"
+print(A.lower())
+print(A.find('I'))
+print(A.capitalize())
+print(A.swapcase())
+print(A.title())
+print(len(A))
+print(A.casefold())
+print(A.center(50))
+print(A.count('A'))
+
+print()
+
+A = "koneru lakshmiaha educational foundation"
+print(A.lower())
+print(A.find('I'))
+print(A.capitalize())
+print(A.swapcase())
+print(A.title())
+print(len(A))
+print(A.casefold())
+print(A.center(50))
+print(A.count('A'))
+
+#concatenating 2 strings we have to use + symbol 
+B = "KONERU"
+C = "LAKSHMIAHA"
+D = B + " " + C
+print(D)
+
+D = B + C 
+print(D)
+
+# string formatting method 
+fname = "Nageshwari"
+fage = 20
+print(f"Hello, my name is {fname} and I am {fage} years old.")
+txt1 = "My name is {fname} , I'm {age}".format(fname="John", age=30)
+print(txt1)
+txt2 = "My name is {0} , I'm {1}".format("Lisa", 10)
+print(txt2)
+txt3 = "My name is {} , I'm {}".format("Lisa", 10)
+print(txt3)
+
+#conditional statements 
+x = 10
+y = 20
+if x > y:
+    print("x is greater than y")
+else:
+    print("y is greater than x")
+    
+#if , elif , else
+
+# even or not 
+n = 5
+if n % 2 == 0:
+    print("n is even")
+else:
+    print("n is odd")
+    
+#biggest of 3 numbers
+a = 10 
+b = 5 
+c = 11
+
+if a > b and a > c :
+    print("a is the biggest")
+elif b > a and b > c :
+    print("b is the biggest")
+else:
+    print("c is the biggest")
