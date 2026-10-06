@@ -57,6 +57,7 @@ print(tips_standardized.head())
 tips_onehot = pd.get_dummies(tips, columns=['sex','smoker','day','time'])
 print("\n one-hot encoded data (first 5 rows):")
 print(tips_onehot.head())
+
 print("#--------------------------------------------------------------------------------------#")
 import pandas as pd 
 import seaborn as sns 
